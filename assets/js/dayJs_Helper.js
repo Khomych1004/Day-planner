@@ -6,7 +6,7 @@ function getDateForPage() {
     const currentMonth = currentDate.format('MMMM');
     const currentDay = currentDate.format('D');
 
-    return dayOfWeek + ", " + currentMonth + " " + currentDay + addSuffix(currentDay);
+    return dayOfWeek + ", " + currentMonth + " " + 22 + addSuffix(22);
 }
 
 // Adding an ending to a date
