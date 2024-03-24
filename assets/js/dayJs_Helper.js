@@ -34,6 +34,6 @@ function addSuffix(day) {
 }
 
 // Return current hour
-function currentHour () {
-   return dayjs().hour();
+function currentHour() {
+    return dayjs().hour();
 }
