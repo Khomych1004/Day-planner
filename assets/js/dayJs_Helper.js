@@ -1,5 +1,5 @@
 // Returns the current date in the required format
-function getDateForTopOfWebPage() {
+function getDateForPage() {
 
     const currentDate = dayjs();
     const dayOfWeek = currentDate.format('dddd');
