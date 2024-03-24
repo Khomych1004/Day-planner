@@ -5,7 +5,7 @@ const $dateEl = $("#currentDay");
 const $container = $('.container');
 
 // Array for standard and business hours
-const businessHours = ['9 AM', '10 AM', '11 AM', '12 PM', '1 PM', '2 PM', '3 PM', '4 PM', '5 PM'];
+const businessHours = ['9AM', '10AM', '11AM', '12PM', '1PM', '2PM', '3PM', '4PM', '5PM'];
 
 // Shows message when saving
 function showMessage() {
