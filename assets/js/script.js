@@ -3,10 +3,11 @@
 const $dateEl = $("#currentDay");
 // Getting the element to insert
 const $container = $('.container');
-console.log($container)
+
 // Array for standard and business hours
 const businessHours = ['9 AM', '10 AM', '11 AM', '12 PM', '1 PM', '2 PM', '3 PM', '4 PM', '5 PM'];
 
+// Shows message when saving
 function showMessage() {
     const $messageDiv = $('.messageNone');
     console.log($messageDiv)
@@ -21,9 +22,9 @@ function saveButtonClick() {
     var $btnId = $(this).attr("id");
     var $text = $("#description_" + $btnId).val();
 
-    showMessage()
-
     saveLocalStorage($btnId, $text)
+
+    showMessage()
 }
 
 $(document).ready(function () {
