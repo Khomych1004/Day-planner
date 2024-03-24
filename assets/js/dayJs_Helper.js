@@ -6,7 +6,7 @@ function getDateForTopOfWebPage() {
     const currentMonth = currentDate.format('MMMM');
     const currentDay = currentDate.format('D');
 
-    return dayOfWeek + ", " + currentMonth + " " + currentDay + addSuffix(currentDay)
+    return dayOfWeek + ", " + currentMonth + " " + currentDay + addSuffix(currentDay);
 }
 
 // Adding an ending to a date
@@ -31,4 +31,9 @@ function addSuffix(day) {
                 return 'th';
         }
     }
+}
+
+// Return current hour
+function currentHour () {
+   return dayjs().hour();
 }
