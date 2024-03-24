@@ -73,6 +73,20 @@ header {
   color: #000000;
 }
 
+/* add message color */
+.colortext {
+  color: red;
+}
+
+.messageNone {
+  text-align: center;
+  display: none;
+}
+
+.messageShow {
+  display: block;
+}
+
 /* color of fields by time */
 .past {
   background-color: #d3d3d3;
